@@ -106,22 +106,39 @@ td { vertical-align:top; }
 
 
 /* ==|== primary styles =====================================================
-   Author:
+   Author: 
    ========================================================================== */
 
+/* ==|== ESTRUCTURA ========================================================= */
+header[role=banner] {
+  /* Cabecera principal web */
+}
+footer[role=contentinfo] {
+  /* Footer principal web */
+}
+div[role=main] {
+  /* Contenido principal */
+}
+aside[role=complementary] {
+  /* Contenido lateral */
+}
+
+/* ==|== Genericos ====================================================== */
+
+/* Breadcrumb */
+.breadcrumb li { display:inline; }
+
+/* ==|== HEADER ========================================================= */
+.logo { }
 
 
+/* ==|== ASIDE ========================================================== */
 
 
+/* ==|== FOOTER ========================================================= */
 
 
-
-
-
-
-
-
-
+/* ==|== FRONT PAGE ====================================================== */
 
 
 /* ==|== non-semantic helper classes ========================================
@@ -134,17 +151,14 @@ td { vertical-align:top; }
 
 /* Hide from both screenreaders and browsers */
 .hidden { display:none !important; visibility:hidden; }
-
 /* Hide only visually, but have it available for screenreaders */
 .visuallyhidden { border:0; clip:rect(0 0 0 0); height:1px; margin:-1px; overflow:hidden; padding:0; position:absolute; width:1px; }
-
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip:auto; height:auto; margin:0; overflow:visible; position:static; width:auto; }
-
 /* Hide visually and from screenreaders, but maintain layout */
 .invisible { visibility:hidden; }
 
-/* Contain floats:h5bp.com/q */ 
+/* Clearfix */ 
 .clearfix:before, .clearfix:after { content:""; display:table; }
 .clearfix:after { clear:both; }
 .clearfix { zoom:1; }

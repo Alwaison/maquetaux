@@ -1,9 +1,8 @@
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="es"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="es"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="es"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=7, IE=9">
   <meta charset="utf-8">
@@ -26,32 +25,31 @@
 
 <body>
     <header role="banner">
-
-    </header>
+      <h1 class="logo"> 
+        <strong class="visuallyhidden">Titulo</strong> 
+        <a title="Titulo. Volver al inicio" href="/"> 
+          <img alt="Titulo" src="/logo.png"> 
+        </a>
+      </h1>
+    </header> <!-- header -->
 
     <div class="main" role="main">
+      
+    </div> <!-- .main -->
 
-    </div>
+		<aside role="complementary" class="complementary">
 
-		<aside role="complementary">
-
-		</aside>
+		</aside> <!-- aside -->
 
     <footer role="contentinfo">
 
     </footer>
 
-  <!-- JavaScript at the bottom for fast page loading -->
-
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
 
-
-  <!-- scripts concatenated and minified via ant build script-->
   <script defer src="js/plugins.js"></script>
   <script defer src="js/script.js"></script>
-  <!-- end scripts-->
 
 	
   <!-- Analytics -->
@@ -60,12 +58,6 @@
     Modernizr.load({
       load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
     });
-  </script>
-
-
-  <!--[if lt IE 7 ]>
-   <!-- Scripts para IE6 -->
-  <![endif]-->
-  
+  </script>  
 </body>
 </html>
