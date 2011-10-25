@@ -3,3 +3,11 @@ MAQUETAUX
 Maqueta base para desarrollos, basada en HTML5 Boilerplate.
 
 Fecha creación: 10-10-11
+
+Changelog:
+
+25/11/11 (alwaison)
+ - Creados los archivos indice.html e interior.html.
+ - Añadida clase "front" al body en index.html
+ - Interior.html creado con html para el paginador en drupal
+ - Añadidos estilos básicos para paginador

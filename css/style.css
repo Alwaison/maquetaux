@@ -128,6 +128,11 @@ aside[role=complementary] {
 /* Breadcrumb */
 .breadcrumb li { display:inline; }
 
+/* Pager */
+.pager,
+.pager li { list-style:none;list-style-image:none;padding:0;margin:0; }
+.pager li { display:inline; }
+
 /* ==|== HEADER ========================================================= */
 .logo { }
 

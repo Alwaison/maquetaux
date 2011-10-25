@@ -23,16 +23,16 @@
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
 </head>
 
-<body class="front">
+<body>
     <header role="banner">
 
 			<!-- Logotipo -->
-      <h1 class="logo"> 
+      <span class="logo"> 
         <strong class="visuallyhidden">Titulo</strong> 
         <a title="Titulo. Volver al inicio" href="/"> 
           <img alt="Titulo" src="/logo.png"> 
         </a>
-      </h1>
+      </span>
 			<!-- /Logotipo -->
 
 			<!-- Formulario de búsqueda -->
@@ -75,11 +75,35 @@
 
     <div class="main" role="main">
       
+
+		<!-- Paginador -->
+		<div class="item-list">
+		  <ul class="pager">
+		    <li class="pager-first first">
+		      <a href="#" title="Ir a la primera página" class="active">&laquo; Primera</a>
+		    </li>
+		    <li class="pager-prev">
+		      <a href="#" title="Ir a la página anterior" class="active">&lsaquo; anterior</a>
+		    </li>          
+		    <li class="pager-current first">1</li>
+		    <li class="pager-item">
+		      <a href="#" title="Ir a la página 2" class="active">2</a>
+		    </li>
+		    <li class="pager-next">
+		      <a href="#" title="Ir a la página siguiente" class="active">siguiente ›</a>
+		    </li>
+		    <li class="pager-last last">
+		      <a href="#" title="Ir a la última página" class="active">última »</a>
+		    </li>
+		  </ul>
+		</div>
+		<!-- Paginador -->
+
     </div> <!-- .main -->
 
-		<aside role="complementary" class="complementary">
+	<aside role="complementary" class="complementary">
 
-		</aside> <!-- aside -->
+	</aside> <!-- aside -->
 
     <footer role="contentinfo">
 
