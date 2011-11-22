@@ -6,7 +6,11 @@ Fecha creación: 10-10-11
 
 Changelog:
 
-25/11/11 (alwaison)
+22/11/11 (alwaison)
+- Añadido soporte para LESS
+- Eliminado el meta para forzar a IE8 a renderizar como IE7.
+
+25/10/11 (alwaison)
  - Creados los archivos indice.html e interior.html.
  - Añadida clase "front" al body en index.html
  - Interior.html creado con html para el paginador en drupal
