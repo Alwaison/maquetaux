@@ -1,21 +1,26 @@
+// ==================================================
+// = || = Variables genericas =======================
+// ==================================================
+// Colores
 @link-color: #0053a0;
+@text-color: #444;
+@sel-color: #fff;
+@sel-bg-color: #fe57a1;
 
-/* enlaces */
-a { 
-	color:@link-color; text-decoration:none; 
-	&:hover {
-		text-decoration:underline;
-		outline:0;
-	}
-	&:focus {
-		outline:thin dotted; text-decoration:underline;
-	}
-	&:active {
-		outline:0;
-	}
+//Enlazandos directamente a la url, conseguirmos un CDN
+@base-url: "http://static.dev/images/backgrounds/";
+@ff: Verdana,Geneva,sans-serif;
+
+// ==================================================
+// = || = Mixins ====================================
+// ==================================================
+
+// Eliminar margenes, paddings y list-styles
+.cleanul,
+.clearol {
+	margin:0; padding:0; list-style:none;
 }
 
-/** mixins **/
 // border-radius 
 .br (@radius: 5px) { 
 	-moz-border-radius:@radius;
@@ -25,16 +30,16 @@ a {
 
 // text-shadow
 .ts (@x: 0, @y: 0, @blur: 1px, @color: #000){
-	-moz-text-shadow:@x @y @blur @color;
-	-webkit-text-shadow:@x @y @blur @color;
-	text-shadow:@x @y @blur @color;
+	-moz-text-shadow:@arguments;
+	-webkit-text-shadow:@arguments;
+	text-shadow:@arguments;
 }
 
 // box-shadow
 .bs(@x: 0, @y: 0, @z: 0, @blur: 1px, @color: #000) {
-	-moz-box-shadow:@x @y @z @blur @color;
-	-webkit-box-shadow:@x @y @z @blur @color;
-	box-shadow:@x @y @z @blur @color;
+	-moz-box-shadow:@arguments;
+	-webkit-box-shadow:@arguments;
+	box-shadow:@arguments;
 }
 // box-shadow inset
 .bsi(@x: 0, @y: 0, @z: 0, @blur: 1px, @color: #000) {
