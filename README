@@ -6,6 +6,9 @@ Fecha creación: 10-10-11
 
 Changelog:
 
+30/11/11 (alwaison)
+- Estilos genericos de hbp5 pasados a LESS
+
 22/11/11 (alwaison)
 - Añadido soporte para LESS
 - Eliminado el meta para forzar a IE8 a renderizar como IE7.
